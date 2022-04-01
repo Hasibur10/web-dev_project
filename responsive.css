@@ -1,0 +1,17 @@
+@media (max-width:1000px) {
+    .navigationBar{display:none;}
+}
+/* navigation bar end */
+
+
+@media (max-width:800px) {
+    .scroler{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(5, 90%);
+        overflow: auto;
+    }
+    .card{
+    
+    }
+}
